@@ -6,16 +6,17 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:30:07 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/01 18:08:11 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/02 20:09:22 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 char	*ft_strrchr(const char *s, int c)
 {
-	char	*str; 
+	char	*str;
 	int		i;
-	
+
 	str = (char *)s;
 	i = 0;
 	while (*str != '\0')
@@ -29,11 +30,6 @@ char	*ft_strrchr(const char *s, int c)
 			return (str);
 		str--;
 		i--;
-	}	
+	}
 	return ((char *)s);
 }
-
-
-
-
-
