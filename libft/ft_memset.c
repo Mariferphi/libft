@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:27:53 by marbecer          #+#    #+#             */
-/*   Updated: 2026/06/30 18:06:06 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/02 14:52:42 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	*ft_memset(void *s, int c, size_t n)
 // Prototipo de tu función
 // #include <stdio.h>
 // #include <string.h>
-// int main() {
+// int main() 
 //     char buffer[10];
 //     ft_memset(buffer, 1, 5);
 //     printf("Prueba 1 (5 bytes con valor 1): %d %d %d %d %d\n", 
