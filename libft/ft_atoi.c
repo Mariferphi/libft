@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:31:10 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/02 20:03:49 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/04 18:11:07 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,8 @@ int	ft_atoi(const char *nptr)
 	i = 0;
 	sign = 1;
 	num = 0;
-	while (nptr[i] == ' ' || nptr[i] == '\t')
-	{
+	while (nptr[i] == ' ' || (nptr[i] <= 13 && nptr[i] >= 9))
 		i++;
-	}
 	if (nptr[i] == '-' || nptr[i] == '+')
 	{
 		if (nptr[i] == '-')
