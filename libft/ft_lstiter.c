@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:53:11 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/03 21:53:30 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/06 19:27:12 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,14 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	
+	t_list	*node;
+
+	if (!lst || !f)
+		return ;
+	node = lst;
+	while(node)
+	{
+		f(node->content);
+		node = node->next;
+	}
 }
