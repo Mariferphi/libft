@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:54:06 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/06 20:19:30 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/07 18:03:42 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	if (!lst || !del || !f)
 		return (NULL);
 	new_lst = NULL;
-	while(lst)
+	while (lst)
 	{
 		node = f(lst->content);
 		new_node = ft_lstnew(node);
-		if(!new_node)
+		if (!new_node)
 		{
 			del(node);
 			ft_lstclear(&new_lst, del);

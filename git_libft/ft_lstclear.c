@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:52:20 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/06 19:18:53 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/07 18:03:00 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 
 	if (!lst || !del)
 		return ;
-	while(*lst)
+	while (*lst)
 	{
 		ptr_node = (*lst)->next;
 		ft_lstdelone(*lst, del);
