@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:29:40 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/07 19:15:59 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:42:05 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
-	if (!s[i] || fd < 0)
+	if (!s)
 		return ;
-	while (s && s[i])
+	while (s[i] != '\0')
 	{
 		write(fd, &s[i], 1);
 		i++;
