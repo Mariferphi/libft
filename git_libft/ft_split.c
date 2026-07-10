@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:22:59 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/05 18:45:39 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:18:34 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,17 +96,3 @@ char	**ft_split(char const *s, char c)
 	arr[i] = NULL;
 	return (arr);
 }
-
-// #include <stdio.h>
-// int main()
-// {
-// 	char *s = "   hola                       gato  como estas aa aa a a ";
-// 	char **a = ft_split(s, ' ');
-// 	int i = 0;
-// 	while (a[i])
-// 	{
-// 		printf("%s ", a[i]);
-// 		i++;
-// 	}
-// 	return (0);
-// }

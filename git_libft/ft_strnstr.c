@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:30:57 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/08 13:41:09 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:19:07 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*
-int main (void)
-{
-	printf("%s \n", ft_strnstr("hola", "la", 3));
-	printf("%s \n", ft_strnstr("los gatos hacen miau", "mia", 80));
-	return (0);
-}*/

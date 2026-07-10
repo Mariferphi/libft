@@ -30,7 +30,6 @@ La biblioteca incluye funciones organizadas en las siguientes categorías:
   - Conversión de enteros a cadenas.
   - Otras utilidades no presentes en la biblioteca estándar.
 
-- **Bonus**
   - Implementación de listas enlazadas simples (`t_list`) con funciones para:
     - Crear nodos.
     - Añadir elementos al principio y al final.
@@ -131,7 +130,7 @@ Permiten verificar propiedades de un carácter.
 | `ft_putendl_fd` | Escribe una cadena seguida de un salto de línea. |
 | `ft_putnbr_fd` | Escribe un número entero. |
 
-### Bonus: listas enlazadas
+### Listas enlazadas
 
 La estructura utilizada es:
 
@@ -176,12 +175,6 @@ Generará:
 
 ```text
 libft.a
-```
-
-### Compilar incluyendo el bonus
-
-```bash
-make bonus
 ```
 
 ### Limpiar archivos objeto
@@ -258,9 +251,7 @@ Durante este proyecto se han consolidado conocimientos sobre:
 
 - Manuales de Unix (`man`)
 - POSIX (The Open Group)
-- cppreference
 - GNU C Library Documentation
-- Beej's Guide to C Programming
 
 ### Uso de Inteligencia Artificial
 

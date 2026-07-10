@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 20:38:09 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/08 15:24:32 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:18:43 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[s1_len + s2_len] = '\0';
 	return (str);
 }
-// int main()
-// {
-// 	char	*str1 = "HOLA ";
-// 	char	*str2 = "MIAU";
-// 	char	*strs = ft_strjoin(str1, str2);
-// 	printf("%s", strs);
-// 	free(strs);
-// 	return (0);
-// }

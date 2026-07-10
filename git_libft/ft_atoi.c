@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:31:10 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/04 18:11:07 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:16:26 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * num);
 }
-// int main(void)
-// {
-// 	char str[]="   			-4am98";
-// 	printf("%d \n", ft_atoi(str));
-// 	return(0);
-// }

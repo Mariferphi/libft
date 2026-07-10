@@ -6,16 +6,14 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 12:34:23 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/07 18:17:23 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:21:14 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
 # include <stdlib.h>
-# include <stddef.h>
 # include <unistd.h>
 # include <stdint.h>
 

@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/30 18:05:56 by marbecer          #+#    #+#             */
-/*   Updated: 2026/06/30 18:24:51 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:17:56 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,15 +38,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hola Mundo";
-
-// 	printf("Antes: %s\n", str);
-// 	ft_memmove(str + 5, str, 4);
-// 	printf("Después: %s\n", str);
-
-// 	return (0);
-// }

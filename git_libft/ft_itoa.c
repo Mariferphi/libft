@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:25:19 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/07 18:01:49 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:16:47 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,21 +58,3 @@ char	*ft_itoa(int n)
 	}
 	return (num);
 }
-// int	main(void)
-// {
-// 	char	*str;
-
-// 	str = ft_itoa(12345);
-// 	printf("12345 -> %s\n", str);
-// 	free(str);
-
-// 	str = ft_itoa(-42);
-// 	printf("-42 -> %s\n", str);
-// 	free(str);
-
-// 	str = ft_itoa(0);
-// 	printf("0 -> %s\n", str);
-// 	free(str);
-
-// 	return (0);
-// }

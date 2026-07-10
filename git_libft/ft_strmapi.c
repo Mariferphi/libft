@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:25:53 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/06 18:42:37 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:18:56 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-// int main()
-// {
-// }

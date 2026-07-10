@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:30:07 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/07 19:46:00 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:19:13 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int main(void)
-// {
-// 	char *str = "Hola mundo";
-// 	char c = 'o';
-
-// 	char *ptr = ft_strrchr(str, c);
-
-// 	printf("%s", ptr);
-// }

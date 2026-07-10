@@ -6,7 +6,7 @@
 /*   By: marbecer <marbecer@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:29:11 by marbecer          #+#    #+#             */
-/*   Updated: 2026/07/02 19:59:30 by marbecer         ###   ########.fr       */
+/*   Updated: 2026/07/10 16:18:49 by marbecer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,22 +31,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i + j] = '\0';
 	return (i + ft_strlen(src));
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char dst[20] = "Hola";
-// 	char src[] = " Mundo";
-
-// 	size_t ret;
-
-// 	printf("Antes: dst = \"%s\"\n", dst);
-
-// 	ret = ft_strlcat(dst, src, sizeof(dst));
-
-// 	printf("Después: dst = \"%s\"\n", dst);
-// 	printf("Return: %zu\n", ret);
-
-// 	return 0;
-// }
