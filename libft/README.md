@@ -1,4 +1,4 @@
-# *Este proyecto ha sido creado como parte del currículo de 42 por marbecer.*
+*Este proyecto ha sido creado como parte del currículo de 42 por marbecer.*
 
 # Libft
 
@@ -211,11 +211,7 @@ int main(void)
 }
 ```
 
-Compilación:
 
-```bash
-cc -Wall -Wextra -Werror main.c libft.a
-```
 
 ---
 
